@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: bisque;
+  height: 100%;
+  width: 100%;
+}
+.image img {
+  height: auto;
+  width: 250px;
+  border-radius: 20%;
+}
+.image p {
+    text-align: center;
+    padding-top: 20px;
+}
+.top h2{
+    text-align: center;
+}
+table tr td {
+    padding-top: 10px;
+    text-align: center;
+}
+.header h2 h1 {
+  background-color: #f1f1f1;
+text-align: center;
+  padding: 20px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.paragraph {
+    text-align: center;
+}
+
+.hobbies,
+.piorities {
+  float: right;
+  width: 33.33%;
+  padding: 15px;
+}
+.row {
+    padding: 15px 20px;
+    text-transform: capitalize;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+label{
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.details .reg{
+    padding-bottom: 10px;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+.details .submit{
+    padding: 10px 20px;
+    text-align: center;
+}
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+footer a {
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.rereg{
+  text-align: center;
+  text-shadow: #333;
+}
+table {
+
+    padding: 20px 25px;
+    margin: 5px 500px;
+}
+.submits {
+    padding: 15px;
+    background-color: rgba(25, 0, 255, 0.075);
+    text-transform: uppercase;
+}
