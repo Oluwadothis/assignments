@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top">
+        <div class="topnav">
+        <a href="login.html">login</a>
+        </div>
+        <h2>Kindly register by filling the form below</h2>
+    </header>
+<form action="table form">
+<div class="detail">
+    <div class="reg">
+        <table>
+<tr>
+    <td> 
+       <label for="fname">First Name:</label> 
+    </td>
+    <td>
+        <input type="text" maxlength="10" minlength="3" required placeholder="your name">
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="lname">Last Name</label>
+    </td>
+    <td>
+        <input type="text" maxlength="10" minlength="3" required placeholder="surname">
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="pnumber">Phone number</label>
+    </td>
+    <td>
+         <input type="tel" name="phone number" id="phonenumber" required placeholder="1234-567-8901">
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <label for="email">Email</label>
+    </td>
+    <td>
+        <input type="email" name="Email" id="email" required multiple>
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="gender">Gender</label>
+    </td>
+    <td>
+        <select name="Sex" id="Sex">
+    <option value="male">male</option>
+    <option value="female">Female</option>
+    <option value="bi">non-binary</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td>
+        <label for="DOB">Date of birth</label>
+    </td>
+    <td>
+        <input type="date" name="bday" id="bday" required pattern="\d
+        {4}-\d{2}-\d{2}" min="1980-01-01" max="2017-12-31" value="YYYY-MM-DD">
+    </td>
+    <tr>
+        
+         <td>
+            <label for="Favcolour">Favourite colour</label>
+        </td>
+        <td>
+            <input type="color" name="" id="colour" value="#ff0000">
+        </td>
+    </tr>
+</div>
+
+<tr>
+<td>
+    <input type="submit" >
+</td>
+</tr>
+
+</div>
+    </table>
+</form>
+    <div class="rereg">
+        <h3>
+            Already have an account? <a href="login.html">Login</a>
+        </h3>
+    </div>
+</body>
+<footer>
+    <p>Seyi Makinde copyright 2022</p>
+</footer>
+</html>
